@@ -1,8 +1,6 @@
 from flask import Flask
 from flask_jsonrpc import JSONRPC
 
-from datetime import datetime
-
 app = Flask(__name__)
 
 rpc = JSONRPC(app, '/api', enable_web_browsable_api=True)
