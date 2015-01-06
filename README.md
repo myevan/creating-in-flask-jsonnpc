@@ -19,3 +19,7 @@ Creating in FlaskJSONPRC
 * 요청 데이터 "id"가 없으면 비어있는 응답 리턴
     * JSON RPC 스펙 Notification 요청
     * 204 No Content 리턴
+
+#### 참고
+
+* JSON-RPC 스펙 <http://www.jsonrpc.org/specification>
